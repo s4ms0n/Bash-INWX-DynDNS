@@ -17,7 +17,7 @@ NEWIPv6=$(curl -s ip6.nnev.de)
 
 
 # delete log file
-if [ $CLEARLOG -eq 1 ]; then
+if [ $CLEARLOG -eq 1 ] && [ -e $LOG_FILE ]; then
 	rm $LOG_FILE
 fi
 
