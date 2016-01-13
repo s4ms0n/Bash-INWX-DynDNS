@@ -1,0 +1,7 @@
+# config parameter
+APIHOST="https://api.domrobot.com/xmlrpc/" # API URL from inwx.de
+
+USERNAME="" # INWX USERNAME
+PASSWORD="" # INWX PASSWORD
+DNSIDv4="" # DNS Entry ID (A-record)
+DNSIDv6="" # DNS Entry ID (AAAA-record)
